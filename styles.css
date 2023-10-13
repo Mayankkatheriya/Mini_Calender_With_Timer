@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background:
+      linear-gradient(135deg,#0000 18.75%,#bdc5c7 0 31.25%,#0000 0),
+      repeating-linear-gradient(45deg,#bdc5c7 -6.25% 6.25%,#e5e6f6 0 18.75%);
+background-size: 64px 64px;
+
+}
+.calender{
+    width: 280px;
+    background-color: azure;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(20, 18, 24, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 5px -3px,#f77d0c 0 -3px 0 inset;
+
+}
+.calender h2{
+    background-color: orangered;
+    padding: 10px 0;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px 10px 0 0;
+}
+.container h3{
+    padding: 16px 0;
+    color: rgb(180, 176, 176);
+}
+.container h1{
+    font-size: 5rem;
+}
+.container h4{
+    font-size: 2rem;
+    color: rgb(71, 2, 66);
+    margin-bottom: 0.5rem;
+}
